@@ -1,0 +1,14 @@
+baseURL = "https://octoarden.github.io/"
+locale = "en-us"
+title = "octoarden"
+timeZone = "Asia/Seoul"
+
+[params]
+description = "octoarden's corner of the web"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = ["html", "rss"]
+section = ["html", "rss"]

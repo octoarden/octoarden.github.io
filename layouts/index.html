@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ .Content }}
+
+{{ $posts := where .Site.RegularPages "Section" "writing" }}
+{{ with first 5 $posts }}
+<h2>recent writing</h2>
+<ul class="posts">
+  {{ range . }}
+  <li>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}
