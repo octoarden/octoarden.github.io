@@ -1,4 +1,4 @@
-baseURL = "https://octoarden.github.io/"
+baseURL = "https://octoarden.com/"
 locale = "en-us"
 title = "octoarden"
 timeZone = "Asia/Seoul"
