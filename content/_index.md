@@ -2,4 +2,4 @@
 title: octoarden
 ---
 
-Hi. I work as an infrastructure engineer in a small trading team.
+Hi. I work as an infrastructure engineer on a small trading team.
